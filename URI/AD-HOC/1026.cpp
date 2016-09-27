@@ -2,19 +2,30 @@
 
 using namespace std;
 
+int xor_func (char a, char b) {
+    return (a != b);
+}
+
 int main(){
-    int n, nv, ne, v1, v2, l, flag = 0;
-    list<int> grafo[30];
+    unsigned long long decimal1, decimal2;
+    string res_binary = bitset<32>(0).to_string();
 
-    scanf("%d", &n);
-    for (int i = 0; i < n; i++) {
-        scanf("%d%d", &nv, &ne);
+    unsigned long long res_decimal = bitset<32>(0).to_ulong();
 
-        for (int j = 0; j < ne; j++) {
-            scanf("%d%d", &v1, &v2);
+    while(scanf("%lld%lld", &decimal1, &decimal2) == 2) {
+        string binary1 = bitset<32>(decimal1).to_string();
+        string binary2 = bitset<32>(decimal2).to_string();
 
-
+        for(int j = 0; j < 32; j++){
+            if (xor_func(binary1[j], binary2[j])) {
+                res_binary[j] = '1';
+            }
         }
+        res_decimal = bitset<32>(res_binary).to_ulong();
+        cout << res_decimal << endl;
+
+        res_binary = bitset<32>(0).to_string();
     }
+
     return 0;
 }
