@@ -1,6 +1,6 @@
 /*
    Nesse problema fiz da maneira q julgo a mais ineficaz e simulei literalmente
-   o mapa discrito no problema. utilizando alguns if e elses
+   o mapa discrito no problema. Utilizando alguns if e elses
 */
 #include <bits/stdc++.h>
 
