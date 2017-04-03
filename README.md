@@ -1,5 +1,5 @@
 #Equipe Duck Season
-![alt text](https://github.com/Khalil09/duck_season_repository/keep-calm-its-duck-season.jpg)
+![alt text](https://github.com/Khalil09/duck_season_repository/keep-calm-its-duck-season.jpg.png)
 
 ## Repositório
 Git destinado para armazenar a resolução de exercícios e material para estudo de programação competitiva. 
