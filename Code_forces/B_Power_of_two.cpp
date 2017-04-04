@@ -5,8 +5,9 @@ using namespace std;
 #define D(b) cout << "Debug:" << b << endl
 
 int main(){
-	int n, a, count = 0;
+	long long int n, a, count = 0;
 	vector<int> v(30);
+	vector<int> V;
 	map<int, int> m;
 
 	cin >> n;
@@ -18,20 +19,19 @@ int main(){
 
 	while(n--){
 		cin >> a;
-		m.insert(pair<int, int>(a, a));
+		m[a]++;
+		V.push_back(a);
 	}
-
-	for(auto s : m){
-		cout << s.first << endl;
-	}
-	for(auto g : m){
+	for(auto g : V){
+		m[g]--;
 		for(auto h : v){
-			int t = h - g.first;
+			int t = h - g;
 			if(m.find(t) != m.end()){
-				count++;
-				D(t);
+				count += m[t];
 			}
 		}
 	}
-	cout << count/2 << endl;
+	cout << count << endl;
+
+	return 0;
 }
