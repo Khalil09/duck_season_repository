@@ -1,4 +1,4 @@
-#Equipe Duck Season
+# Equipe Duck Season
 ![alt text](https://github.com/Khalil09/duck_season_repository/keep-calm-its-duck-season.jpg.png)
 
 ## Repositório
