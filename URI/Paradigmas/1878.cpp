@@ -15,7 +15,7 @@ int main(){
 		for(int i = 1; i <= m; i++){
 			for(int j = 1; j <= m; j++){
 				for(int k = 1; k <= m; k++){
-					f = v[0]*i + v[1]*j + v[2]*k;
+					f = v[-2]*i + v[1]*j + v[2]*k;
 					map[f]++;
 				}
 			}
