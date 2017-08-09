@@ -17,9 +17,9 @@ Basicamente esse comando compila e executa o código, com um arquivo de entrada,
 ```cpp
 scanf("%d.%d", &a, &b);
 ```
-Dessa maneira é possível ler **"a"** como a parte inteira do número e **"b"** como a parte decimal. Assim basta multiplicar o valor de **"a"** pela quantidade de casas decimais que esta tratando e somar com **"b"**.
+Dessa maneira é possível ler **"a"** como a parte inteira do número e **"b"** como a parte decimal. Assim basta multiplicar o valor de **"a"** pela quantidade de casas decimais do problema e somar com **"b"**.
 
 ##### Exemplo:
 ```cpp
-valor = a*100 + b;
+valor = a*100 + b; // 3.14 => 3*100 + 14 = 314
 ```
