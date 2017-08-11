@@ -4,6 +4,7 @@ using namespace std;
 
 int v[500000];
 
+// Funcao pesquisa binaria =====
 bool binary_search(int x, int n){
     int a = 0;
     int b = n;
@@ -17,6 +18,7 @@ bool binary_search(int x, int n){
     }
     return false;
 }
+//=============================
 
 int main(){
 
