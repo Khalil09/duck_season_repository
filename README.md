@@ -11,3 +11,5 @@ Git destinado para armazenar a resolução de exercícios e material para estudo
 * The On-Line Encyclopedia of Integer Sequences: https://oeis.org
 
 * Video aulas MIT OpenCourseWare (Programação Dinâmica): https://www.youtube.com/watch?v=OQ5jsbhAv_M&feature=youtu.be (parte 1)
+
+* Algorithims Live: https://www.youtube.com/channel/UCBLr7ISa_YDy5qeATupf26w
